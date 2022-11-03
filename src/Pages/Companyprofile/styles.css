@@ -1,0 +1,32 @@
+.companyprofile{
+    background: url("../../Resources/homescreenbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.basic-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10% 0;
+}
+.basic-details h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.basic-details h1, .basic-details p, .carbonfootprint h1, .carbonfootprint p{
+    margin: 0;
+    padding: 0;
+}
+.carbonfootprint h1{
+    font-size: 60px;
+}

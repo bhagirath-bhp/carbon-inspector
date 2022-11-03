@@ -1,0 +1,56 @@
+.comment-section{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cheader{
+    width: 90%;
+    border-bottom: 1px solid #000;
+}
+.comments{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment-dummy{
+    width: 90%;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.297);
+    margin: 10px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.comment-dummy .profile, .comment-dummy .like{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.297);
+}
+.comment-dummy .datafield1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.comment-dummy .datafield1 .datafield1-data1{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.datafield1-data1 h3, .datafield1-data1 p{
+    margin-bottom: 5px;
+}

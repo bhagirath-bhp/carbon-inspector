@@ -1,0 +1,36 @@
+
+.detailed-report{
+	margin-top: 40px;
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(49, 140, 79, 0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(175, 175, 175, 0.2);
+	color: rgb(0, 0, 0);
+}
+
+th {
+	text-align: left;
+}
+
+thead th{
+	background-color: rgba(175, 175, 175, 0.2);
+}
+
+tbody tr:hover {
+			background-color: rgba(92, 180, 111, 0.3);
+}
+tbody td {
+	position: relative;
+}
+tbody td:hover{
+    background-color: rgba(92, 180, 111, 0.3);
+}
